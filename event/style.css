@@ -1,0 +1,64 @@
+.head{
+    border: 2px solid black;
+    margin: 50px;
+}
+h2,h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#container{
+    border: 2px solid black;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    border-radius: 100rem;
+    height: 100px;
+    width:100px;
+}
+.col-8{
+    padding-top:10mm;
+    padding-bottom: 10mm;
+    display:flex;
+    flex-direction: row;
+}
+.mail,.num,.seats,.name2,.okay,.box6{
+    padding-top: 5mm;
+}
+.box2,.box3,.box4,.box5{
+    padding-top: 3mm;
+    padding-left: 2mm;
+}
+.box1{
+    padding-left: 2mm;
+}
+.no,.okay{
+    padding-left:10mm;
+}
+.col-4{
+    text-align: right;
+}
+.image{
+    margin-top:50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media (max-width: 409.98px) { 
+    body,.image,.col-8,.input-container{
+        page-break-after: always;
+    }
+}
+@media (max-width: 245.98px) { 
+    body,.image,.col-8,.input-container{
+        page-break-after: always;
+    }
+}
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
+@media print {
+    body {page-break-after: always;
+    }
+}
+  
